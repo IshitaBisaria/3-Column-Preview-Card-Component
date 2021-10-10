@@ -101,7 +101,7 @@ button {
     color: hsl(179, 100%, 13%);
 }
 
-@media (min-width: 376px) {
+@media (min-width: 900px) {
     .container {
         display: flex;
         flex-direction: row;
