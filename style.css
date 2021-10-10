@@ -28,7 +28,7 @@ main {
     justify-content: center;
 }
 
-@media (min-width: 376px) {
+/* @media (min-width: 376px) {
     .container {
         display: flex;
         flex-direction: row;
@@ -43,7 +43,7 @@ main {
     .car-desc > p {
         margin-bottom: 72px;
     }
-}
+} */
 
 h1 {
     color: hsl(0, 0%, 95%);
@@ -118,6 +118,21 @@ button {
 }
 
 @media (min-width: 376px) {
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .car-desc {
+        width: 300px;
+        height: 480px;
+    }
+
+    .car-desc > p {
+        margin-bottom: 72px;
+    }
+    
     #div1 {
         padding-right: 45px;
         border-top-left-radius: 10px;
